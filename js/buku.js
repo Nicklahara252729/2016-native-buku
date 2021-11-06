@@ -1,0 +1,17 @@
+$(function(){
+    $('.btnlogin').click(function(){
+        $('.login').css({
+            visibility:'visible'
+        });
+    });
+    $('.login').mouseenter(function(){
+        $('.login').css({
+            visibility:'visible'
+        });
+    });
+    $('.login').mouseleave(function(){
+        $('.login').css({
+            visibility:'hidden'
+        });
+    });
+});
